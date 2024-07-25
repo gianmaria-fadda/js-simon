@@ -19,7 +19,7 @@ html {
     margin: 0 auto;
 }
 
-#number-container {
+#numbers-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
