@@ -8,6 +8,11 @@ for (let i = 0; i < 5; i++) {
     console.log('num', num, typeof num);
 
     randomNumber.push(num);
+    numberContainer.innerHTML += `
+    <span>
+    ${num}
+    </span>
+    `;
 }
 
 console.log('randomNumber', randomNumber, typeof randomNumber);
